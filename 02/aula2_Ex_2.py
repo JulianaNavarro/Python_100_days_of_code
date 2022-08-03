@@ -26,4 +26,5 @@ height = float(height)
 weight = int(weight)
 
 BMI = weight / height ** 2
+BMI = int(BMI)
 print(BMI)
