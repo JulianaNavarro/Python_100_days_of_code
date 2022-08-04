@@ -11,7 +11,7 @@ age=int(age)
 
 weeks= age * 52
 days=  age * 365
-months_left= (90-36)*12
+months_left= (90-age)*12
 
 print(f"You have {days} days, {weeks} weeks, and {months_left} months left until your 90s. ")
 
