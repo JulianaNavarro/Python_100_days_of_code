@@ -9,9 +9,9 @@ year = int(input("Which year do you want to check? \n"))
 # print(check)
 
 # if year % 4 == 0:
-#     print("Leap")
+#      print("Leap")
 # else:
-#     print("Not Leap")
+#      print("Not Leap")
 
 if year % 4 == 0 and year % 100 > 0 or year % 100 == 0 and year % 400 == 0:
     print("Leap year")
