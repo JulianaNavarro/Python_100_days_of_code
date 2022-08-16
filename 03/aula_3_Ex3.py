@@ -10,7 +10,7 @@ height = float(height)
 weight = int(weight)
 
 BMI = weight / height ** 2
-BMI = int(round(BMI,3))
+BMI = int(round(BMI,2))
 
 if BMI < 18.5:
     print(f"Your BMI is {BMI}, you are underweight.")
