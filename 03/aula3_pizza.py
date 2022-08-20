@@ -11,9 +11,6 @@ extra_cheese = input("Do you want extra cheese? Y or N \n").upper()
 #Write your code below this line 👇
 
 price = 0
-
-if extra_cheese == "Y":
-     price += 1
      
 if size == "S":
     price += 15
@@ -26,12 +23,13 @@ elif size == "M":
        price += 3
 else:
     price += 25
-    # print(price)
     if add_pepperoni == "Y":
        price += 3
-    #    print(price)
 
-# print(price)
+
+if extra_cheese == "Y":
+    price += 1
+
 
 print(f"Your final bill is: ${price}")
 
