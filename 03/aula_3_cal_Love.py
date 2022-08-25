@@ -6,7 +6,7 @@ name2 = input("What is their name? \n").lower()
 
 #Write your code below this line 👇
 
-# 'Juliana'.count(" Juliana ")
+
 
 t=(name1.count("t"))
 r=(name1.count("r"))
@@ -17,7 +17,7 @@ l=(name1.count("l"))
 o=(name1.count("o"))
 v=(name1.count("v"))
 score1= str(t + r + u + e + l + o + v )
-# print(score1)
+
 
 t=(name2.count("t"))
 r=(name2.count("r"))
@@ -29,10 +29,10 @@ o=(name2.count("o"))
 v=(name2.count("e"))
 
 score2= str(t + r + u + e + l + o + v )
-# print(score2)
+
 
 total_score = int(score1 + score2)
-# print(total_score)
+
 
 if (total_score < 10) or (total_score > 90):
     print(f"Your score is {total_score}, you go together like coke and mentos.")

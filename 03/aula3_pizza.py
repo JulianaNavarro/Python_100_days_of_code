@@ -33,7 +33,5 @@ if extra_cheese == "Y":
 
 print(f"Your final bill is: ${price}")
 
-# print(size)
-# print(add_pepperoni)
-# print(extra_cheese)
+
 
